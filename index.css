@@ -1,8 +1,16 @@
-body {
+/* body {
     margin: 0;
     font-family: monospace;
     background-color: #d4d4d4;
+  } */
+
+  body {
+    margin: 0;
+    font-family: monospace;
+    background-image: url("https://s3.amazonaws.com/files.d20.io/marketplace/11235/eu7RsIvXFvFbSwXcSetyXQ/max.jpg?1361927715");
+    background-repeat: repeat;
   }
+  
   
   #character-header {
     display: flex;
@@ -21,17 +29,23 @@ body {
   
   #character-collection {
     margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .card {
     text-align: center;
+    /* background-color: #ff0000; */
+    background-image: url('https://www.cehv.org/wp-content/uploads/2019/03/ROUGH-PARCHMENT-DARK.jpg');
+    background-repeat: repeat;
     border: grey solid 1px;
     padding: 1rem;
     width: 15rem;
     height: 25rem;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 3px 4px #e04b52
+    box-shadow: 3px 4px #000000
   }
   
   .character-avatar {
@@ -42,15 +56,15 @@ body {
   
   button {
     position: relative;
-    background-color: #e04b52;
-    border: none;
+    background-color: #000000;
+    border: #BEBEBE solid 1px;
     border-radius: 5px;
     height: 3rem;
     width: max-content;
     color: whitesmoke;
     font-size: 18px;
     justify-self: center;
-    /* display: inline-block; */
+    /* style="display: inline"; */
   }
   
   button:hover {
@@ -101,7 +115,45 @@ body {
     margin: 3px;
   }
   
-  img {
-    max-width: 100%;
-    max-height: 100%;
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.show-card-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-image: url('https://cdn.wallpapersafari.com/82/97/UHpNxb.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.show-card-container.visible {
+  display: block;
+}
+
+.show-cards {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.s-card {
+    text-align: center;
+    /* background-color: #ff0000; */
+    background-image: url('https://www.cehv.org/wp-content/uploads/2019/03/ROUGH-PARCHMENT-DARK.jpg');
+    background-repeat: repeat;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 15rem;
+    height: 25rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #000000
 }

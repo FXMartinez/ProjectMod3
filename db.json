@@ -24,7 +24,7 @@
       "id": 1,
       "name": "Richard B. Riddick",
       "image": "http://www.internationalhero.co.uk/r/riddick1.jpg",
-      "likes": "15",
+      "likes": "42",
       "stats": [
         {
           "id": 1,
@@ -51,13 +51,13 @@
     {
       "name": "Dredd",
       "image": "https://i.ytimg.com/vi/qVIba2N6MTA/maxresdefault.jpg",
-      "likes": "7",
+      "likes": "42",
       "id": 2
     },
     {
       "name": "sam bridges",
       "image": "https://i.pinimg.com/474x/af/16/fd/af16fd7eb84553fa72d08747d017844d.jpg",
-      "likes": "7",
+      "likes": "11",
       "id": 3
     }
   ]
