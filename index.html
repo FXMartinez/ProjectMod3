@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Character Tale</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    
+    <div id='character-header'>
+      <img src="https://i.pinimg.com/originals/89/9b/b4/899bb4a48fc8f1f5169976c7eea2fa8e.png" alt="character-header">
+      <h1>Character Creater</h1>
+    </div>
+
+    <div class="container">
+      <form class="add-character-form" style="">
+        <h3>Create a character!</h3>
+
+        <input type="text" name="name" value="" placeholder="Enter a characters's name..." class="input-text">
+        <br>
+        <input type="text" name="image" value="" placeholder="Enter a character's image URL..." class="input-text">
+        <br>
+        <input type="submit" name="submit" value="Create New Character" class="submit">
+      </form>
+    </div>
+    <p style='text-align:center' >Add your character to the roster! <button id='new-character-btn'>Create a new character!</button></p>
+
+
+    <div id="character-collection">
+    </div>
+  </body>
+  <script type="text/javascript" src="src/index.js"></script>
+</html>

@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "weapon",
+      "name": "mental manipulation",
+      "ability": "idk"
+    },
+    {
+      "id": 2,
+      "type": "weapon",
+      "name": "mental manipulation",
+      "ability": "idk"
+    },
+    {
+      "id": 3,
+      "type": "weapon",
+      "name": "mental manipulation",
+      "ability": "idk"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Richard B. Riddick",
+      "image": "http://www.internationalhero.co.uk/r/riddick1.jpg",
+      "likes": "15",
+      "stats": [
+        {
+          "id": 1,
+          "name": "strength",
+          "description": "what it does i guess"
+        },
+        {
+          "id": 2,
+          "name": "fire",
+          "description": "what it does i guess"
+        },
+        {
+          "id": 3,
+          "name": "intelect",
+          "description": "what it does i guess"
+        }
+      ],
+      "items": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Dredd",
+      "image": "https://i.ytimg.com/vi/qVIba2N6MTA/maxresdefault.jpg",
+      "likes": "7",
+      "id": 2
+    },
+    {
+      "name": "sam bridges",
+      "image": "https://i.pinimg.com/474x/af/16/fd/af16fd7eb84553fa72d08747d017844d.jpg",
+      "likes": "7",
+      "id": 3
+    }
+  ]
+}
